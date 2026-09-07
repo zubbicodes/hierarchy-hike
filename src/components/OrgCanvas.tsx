@@ -562,7 +562,7 @@ export default function OrgCanvas() {
           </button>
         ))}
         <span className="ml-2 text-[10px] uppercase tracking-[0.3em] text-cream/35">
-          Four houses · one Greenwood
+          
         </span>
       </div>
     </div>

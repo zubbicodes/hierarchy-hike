@@ -1,23 +1,23 @@
-import daniel from "@/assets/daniel-opoku.jpg.asset.json";
-import charlotte from "@/assets/charlotte-doyly.jpg.asset.json";
-import kav from "@/assets/kav-pawar.jpg.asset.json";
-import richard from "@/assets/richard-johnson.jpg.asset.json";
-import maria from "@/assets/maria-amigot.jpg.asset.json";
-import hannah from "@/assets/hannah-savage.jpg.asset.json";
-import trevor from "@/assets/trevor-evans.jpg.asset.json";
-import lucy from "@/assets/lucy-price.jpg.asset.json";
-import precious from "@/assets/precious-gordon.jpg.asset.json";
-import catie from "@/assets/catie-pine.jpg.asset.json";
-import julian from "@/assets/julian-jordan.jpg.asset.json";
-import chloe from "@/assets/chloe-edmonds.jpg.asset.json";
-import kim from "@/assets/kim-silvers.jpg.asset.json";
-import donna from "@/assets/donna-bilboe.jpg.asset.json";
-import tezlin from "@/assets/tezlin-harding.jpg.asset.json";
-import jodie from "@/assets/jodie-styche.jpg.asset.json";
-import natasha from "@/assets/natasha-morton.jpg.asset.json";
-import logo from "@/assets/logo.png.asset.json";
+import daniel from "@/assets/daniel-opoku.jpg";
+import charlotte from "@/assets/charlotte-doyly.jpg";
+import kav from "@/assets/kav-pawar.jpg";
+import richard from "@/assets/richard-johnson.jpg";
+import maria from "@/assets/maria-amigot.jpg";
+import hannah from "@/assets/hannah-savage.jpg";
+import trevor from "@/assets/trevor-evans.jpg";
+import lucy from "@/assets/lucy-price.jpg";
+import precious from "@/assets/precious-gordon.jpg";
+import catie from "@/assets/catie-pine.jpg";
+import julian from "@/assets/julian-jordan.jpg";
+import chloe from "@/assets/chloe-edmonds.jpg";
+import kim from "@/assets/kim-silvers.jpg";
+import donna from "@/assets/donna-bilboe.jpg";
+import tezlin from "@/assets/tezlin-harding.jpg";
+import jodie from "@/assets/jodie-styche.jpg";
+import natasha from "@/assets/natasha-morton.jpg";
+import logo from "@/assets/logo.png";
 
-export const logoUrl = logo.url;
+export const logoUrl = logo;
 
 export type Tier = "principal" | "senior" | "assistant" | "associate" | "house";
 
@@ -44,7 +44,7 @@ export const PEOPLE: Person[] = [
     name: "Daniel Opoku",
     title: "Principal",
     focus: "Strategic Overview",
-    photo: daniel.url,
+    photo: daniel,
     parent: null,
     tier: "principal",
     x: 1240,
@@ -55,7 +55,7 @@ export const PEOPLE: Person[] = [
     name: "Charlotte D’Oyly",
     title: "DSL",
     focus: "Safeguarding",
-    photo: charlotte.url,
+    photo: charlotte,
     parent: "daniel",
     tier: "senior",
     x: 1900,
@@ -66,7 +66,7 @@ export const PEOPLE: Person[] = [
     name: "Kav Pawar",
     title: "Vice Principal",
     focus: "Behaviour & Standards",
-    photo: kav.url,
+    photo: kav,
     parent: "daniel",
     tier: "senior",
     x: 640,
@@ -77,7 +77,7 @@ export const PEOPLE: Person[] = [
     name: "Richard Johnson",
     title: "Associate Principal",
     focus: "Raising Standards",
-    photo: richard.url,
+    photo: richard,
     parent: "daniel",
     tier: "senior",
     x: 1240,
@@ -88,7 +88,7 @@ export const PEOPLE: Person[] = [
     name: "Maria Amigot",
     title: "Vice Principal",
     focus: "Quality of Education",
-    photo: maria.url,
+    photo: maria,
     parent: "daniel",
     tier: "senior",
     x: 1840,
@@ -99,7 +99,7 @@ export const PEOPLE: Person[] = [
     name: "Hannah Savage",
     title: "Assistant Principal",
     focus: "Attendance",
-    photo: hannah.url,
+    photo: hannah,
     parent: "kav",
     tier: "assistant",
     x: 300,
@@ -110,7 +110,7 @@ export const PEOPLE: Person[] = [
     name: "Trevor Evans",
     title: "Assistant Principal",
     focus: "Personal Development",
-    photo: trevor.url,
+    photo: trevor,
     parent: "kav",
     tier: "assistant",
     x: 720,
@@ -121,7 +121,7 @@ export const PEOPLE: Person[] = [
     name: "Lucy Price",
     title: "Assistant Principal",
     focus: "Raising Standards",
-    photo: lucy.url,
+    photo: lucy,
     parent: "richard",
     tier: "assistant",
     x: 1180,
@@ -132,7 +132,7 @@ export const PEOPLE: Person[] = [
     name: "Precious Gordon",
     title: "Assistant Principal",
     focus: "Curriculum",
-    photo: precious.url,
+    photo: precious,
     parent: "maria",
     tier: "assistant",
     x: 1620,
@@ -143,7 +143,7 @@ export const PEOPLE: Person[] = [
     name: "Catie Pine",
     title: "Assistant Principal",
     focus: "Teaching & Learning",
-    photo: catie.url,
+    photo: catie,
     parent: "maria",
     tier: "assistant",
     x: 2060,
@@ -154,7 +154,7 @@ export const PEOPLE: Person[] = [
     name: "Julian Jordan",
     title: "Associate Assistant Principal",
     focus: "Behaviour & Culture",
-    photo: julian.url,
+    photo: julian,
     parent: "trevor",
     tier: "associate",
     x: 540,
@@ -165,7 +165,7 @@ export const PEOPLE: Person[] = [
     name: "Chloe Edmonds",
     title: "Associate Assistant Principal",
     focus: "Reading & Character",
-    photo: chloe.url,
+    photo: chloe,
     parent: "lucy",
     tier: "associate",
     x: 1180,
@@ -176,7 +176,7 @@ export const PEOPLE: Person[] = [
     name: "Kim Silvers",
     title: "SENDCO",
     focus: "SEND",
-    photo: kim.url,
+    photo: kim,
     parent: "catie",
     tier: "associate",
     x: 2060,
@@ -187,7 +187,7 @@ export const PEOPLE: Person[] = [
     name: "Donna Bilboe",
     title: "Head of House",
     focus: "Hurricane House",
-    photo: donna.url,
+    photo: donna,
     parent: "hannah",
     tier: "house",
     x: 300,
@@ -201,7 +201,7 @@ export const PEOPLE: Person[] = [
     name: "Tezlin Harding",
     title: "Head of House",
     focus: "Gladiator House",
-    photo: tezlin.url,
+    photo: tezlin,
     parent: "chloe",
     tier: "house",
     x: 900,
@@ -215,7 +215,7 @@ export const PEOPLE: Person[] = [
     name: "Jodie Styche",
     title: "Head of House",
     focus: "Lancaster House",
-    photo: jodie.url,
+    photo: jodie,
     parent: "precious",
     tier: "house",
     x: 1500,
@@ -229,7 +229,7 @@ export const PEOPLE: Person[] = [
     name: "Natasha Morton",
     title: "Head of House",
     focus: "Spitfire House",
-    photo: natasha.url,
+    photo: natasha,
     parent: "catie",
     tier: "house",
     x: 2100,

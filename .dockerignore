@@ -1,0 +1,38 @@
+# deps & build output
+node_modules
+.output
+.nitro
+.vinxi
+.tanstack
+dist
+dist-ssr
+.wrangler
+
+# vcs / tooling
+.git
+.gitignore
+.github
+.lovable
+.vscode
+.idea
+.claude
+
+# env & secrets
+.env
+.env.*
+!.env.example
+.dev.vars
+
+# docker
+Dockerfile
+Dockerfile.*
+docker-compose*.yml
+.dockerignore
+
+# misc
+*.log
+logs
+npm-debug.log*
+.DS_Store
+README.md
+AGENTS.md
